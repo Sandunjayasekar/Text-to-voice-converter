@@ -13,10 +13,11 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    color: #fff;
+
 }
 
 .container h1 {
-    color: #fff;
     margin-bottom: 50px;
     margin-top: -50px;
     font-size: 45px;
@@ -28,4 +29,18 @@
     font-weight: 700;
     font-size: 55px;
     text-shadow: 2px 2px 4px #922020;
+}
+
+textarea {
+    width: 600px;
+    height: 250px;
+    background: #403d84;
+    color: #fff;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px;
 }
